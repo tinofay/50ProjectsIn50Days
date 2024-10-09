@@ -36,6 +36,7 @@ function update() {
 
     const actives = document.querySelectorAll('.active');
     const totalCircles = circles.length;
+
     const progressWidth = ((actives.length - 1) / (totalCircles - 1)) * 100;
 
     progress.style.width = `${progressWidth}%`;
